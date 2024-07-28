@@ -1,8 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "../prisma/src/generated/client";
+/*
+console.log("Pase por aqui")
 
-//const prisma = new PrismaClient()
+const prisma = new PrismaClient()
 
-
+export const db = prisma;
+*/
 
 declare global {
     var prisma: PrismaClient | undefined;
